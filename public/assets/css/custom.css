@@ -10,7 +10,11 @@ body {
 
 header {
     background-color: darkgray;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .ScrollingMessages{
@@ -21,7 +25,6 @@ header {
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
     text-align: center;
-
 }
 
 ul, a {
@@ -29,13 +32,6 @@ ul, a {
     font-size:30px;
     color: white;
     text-decoration: none;
-}
-
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
 }
 
 .logo{
@@ -97,4 +93,11 @@ header{
     height: 35px;
     width: auto;
     margin-left: 35px;
+}
+
+.shop-item-name{
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 10px 0 0;
+    font-family: 'Pacifico', cursive;
 }
