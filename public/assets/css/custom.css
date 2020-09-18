@@ -105,6 +105,12 @@ ul, a {
 .ads{
     margin: 50px 20px 20px 20px;
     cursor: pointer;
+    display: flex;
+}
+.ad_words{
+    position: relative;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
 }
 
 .ad_cars{
@@ -118,24 +124,22 @@ ul, a {
     margin-left: -100px;
 }
 
-
-.ad_words_stickers{
-    left:-300px;
-    top:-200px;
-}
-
-.ad_words{
-    position: relative;
-    font-size: 50px;
-    font-family: 'Pacifico', cursive;
-}
-
-.ad_words_cars{
-    left: -600px;
-    top:-200px;
-}
-
 .ad_keychains{
     width: 20%;
     height:400px;
 }
+
+.ad_words_stickers{
+    left:-300px;
+    top:50px;
+}
+
+.ad_words_cars{
+    left: -400px;
+    top:50px;
+}
+
+.ad_words_keychains{
+    left: -300px;
+}
+
